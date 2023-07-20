@@ -1,17 +1,2 @@
-# passwordgen
- Password Generator using javascript with the following criteria:
-GIVEN I need a new, secure password
-WHEN I click the button to generate a password
-THEN I am presented with a series of prompts for password criteria
-WHEN prompted for password criteria
-THEN I select which criteria to include in the password
-WHEN prompted for the length of the password
-THEN I choose a length of at least 8 characters and no more than 128 characters
-WHEN asked for character types to include in the password
-THEN I confirm whether or not to include lowercase, uppercase, numeric, and/or special characters
-WHEN I answer each prompt
-THEN my input should be validated and at least one character type should be selected
-WHEN all prompts are answered
-THEN a password is generated that matches the selected criteria
-WHEN the password is generated
-THEN the password is either displayed in an alert or written to the page
+A simple password generator made in Javascript. Asks queries on the criteria of password including length and inclusion of numbers, capitalization, and special characters before spitting out a randomized sequence that meets the inputed criteria. Perfect for super safe passwords, just make sure you save it somewhere.
+![image](https://github.com/Loganatmars/java-based-password-generator/assets/137448209/c7d0db85-2021-415c-b913-d9579f0705d2)
